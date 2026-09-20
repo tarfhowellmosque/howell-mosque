@@ -406,6 +406,7 @@
     <li><a href="#" onclick="show('events');return false;"><span class="en">Events</span><span class="tr">Etkinlikler</span></a></li>
     <li><a href="#" onclick="show('about');return false;"><span class="en">About</span><span class="tr">Hakkında</span></a></li>
     <li><a href="#" onclick="show('donate');return false;"><span class="en">Phase 1</span><span class="tr">Aşama 1</span></a></li>
+    <li><a href="#" onclick="show('test');return false;"><span class="en">Test</span><span class="tr">Test</span></a></li>
     <li><a href="https://www.zeffy.com/en-US/donation-form/dollar1-a-day-buddy-campaign-to-open-doors-of-new-mosque?impact_chain_source=ssadik160%40yahoo.com" target="_blank" class="nav-donate-btn" style="background:#2D6A4F;color:#F5E6C8;border:1px solid rgba(201,168,76,0.4);"><span class="en">$1/Day</span><span class="tr">Günde $1</span></a></li>
     <li><a href="https://www.zeffy.com/en-US/donation-form/open-the-doors-phase-1-funding-campaign" target="_blank" class="nav-donate-btn"><span class="en">Donate Now</span><span class="tr">Bağış Yap</span></a></li>
   </ul>
@@ -432,6 +433,7 @@
   <a href="#" onclick="show('events');closeMenu();return false;"><span class="en">Events</span><span class="tr">Etkinlikler</span></a>
   <a href="#" onclick="show('about');closeMenu();return false;"><span class="en">About</span><span class="tr">Hakkında</span></a>
   <a href="#" onclick="show('donate');closeMenu();return false;"><span class="en">Phase 1</span><span class="tr">Aşama 1</span></a>
+  <a href="#" onclick="show('test');closeMenu();return false;"><span class="en">Test</span><span class="tr">Test</span></a>
   <a href="#" onclick="show('gallery');closeMenu();return false;"><span class="en">Gallery</span><span class="tr">Galeri</span></a>
   <a href="https://www.zeffy.com/en-US/donation-form/dollar1-a-day-buddy-campaign-to-open-doors-of-new-mosque?impact_chain_source=ssadik160%40yahoo.com" target="_blank" class="mobile-menu-donate" style="background:var(--green2);border:1px solid rgba(201,168,76,0.5);margin-bottom:0.3rem;">&#9670; <span class="en">$1 a Day Campaign</span><span class="tr">Günde $1 Kampanyası</span> &#9670;</a>
   <a href="https://www.zeffy.com/en-US/donation-form/open-the-doors-phase-1-funding-campaign" target="_blank" class="mobile-menu-donate">&#9670; <span class="en">Donate Now</span><span class="tr">Bağış Yap</span> &#9670;</a>
@@ -790,6 +792,19 @@
   </div>
 </div>
 
+<!-- ═══ TEST (temporary) ═══ -->
+<div id="page-test" class="page">
+  <div class="page-header" style="padding-top:5rem;">
+    <p class="section-eyebrow"><span class="en">Test</span><span class="tr">Test</span></p>
+    <h1 class="section-title" style="color:var(--cream);"><span class="en">Test Page</span><span class="tr">Test Sayfası</span></h1>
+  </div>
+  <div style="max-width:1000px;margin:0 auto;padding:3rem 2rem;">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1rem;">
+      <img src="images/test-image.jpeg" alt="Test Image" onclick="openLightbox(this.src)" style="width:100%;display:block;border:1px solid rgba(201,168,76,0.2);object-fit:cover;cursor:zoom-in;border-radius:2px;transition:opacity 0.2s;" onmouseover="this.style.opacity=0.85" onmouseout="this.style.opacity=1"/>
+    </div>
+  </div>
+</div>
+
 <!-- ═══ FOOTER ═══ -->
 <footer>
   <div class="footer-inner">
@@ -823,7 +838,7 @@
       <h4><span class="en">Contact</span><span class="tr">İletişim</span></h4>
       <ul>
         <li><a href="mailto:info&#64;tarfhowellmosque&#46;org" style="color:var(--gold);text-decoration:none;">info&#64;tarfhowellmosque&#46;org</a></li>
-        <li><a href="tel:7327622691" style="color:inherit;">732-762-2691</a></li>
+        <li><a href="tel:7327622691" style="color:var(--gold);">732-762-2691</a></li>
         <li><a href="https://www.instagram.com/tarfnjsadiklarmosque" target="_blank">Instagram</a></li>
         <li><a href="https://www.facebook.com/tarfhowellnj/" target="_blank">Facebook</a></li>
         <li><a href="#" onclick="show('donate');return false;"><span class="en">Support Phase 1</span><span class="tr">Aşama 1'i Destekle</span></a></li>
